@@ -2,8 +2,9 @@ package com.company.Task4;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
-public class Main {
+public class Four {
 
     public List table;
 
@@ -209,6 +210,26 @@ public class Main {
     }
 
     public static void main(String[] args){
-        new Main().replace(1,1);
+
+        for (int i = 0; i < 1; i++) {
+            try {
+                System.out.println("Введите n:");
+                int n = new Scanner(System.in).nextInt();
+
+                System.out.println("Введите m:");
+                int m = new Scanner(System.in).nextInt();
+
+                if(n>1000|n<1|m>1000|m<1){
+                    throw new Exception();
+                }else new Four().replace(n,m);
+
+            }catch (Exception e){
+                System.out.println("Ошибка ввода, повторите ввод");
+                i--;
+            }
+        }
+
     }
 }
+
+

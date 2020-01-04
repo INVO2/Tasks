@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3016f988-a64b-4208-b77b-c665a212f084" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JuniorTasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Task1/ConstantsСheetah.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Task1/One.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Task2/Two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Task3/Three.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JuniorTasks/com/company/Task4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task4/Four.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vju9p6Rj82jLf5bzsKiNNtdvJj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,22 +40,82 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Task4.Main" />
+  <component name="RunManager" selected="Application.Four">
+    <configuration name="Four" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task4.Four" />
       <module name="JuniorTasks" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task1.One" />
+      <module name="JuniorTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task3.Task" />
+      <module name="JuniorTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Three" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task3.Three" />
+      <module name="JuniorTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task2.Two" />
+      <module name="JuniorTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Four" />
+        <item itemvalue="Application.Three" />
+        <item itemvalue="Application.One" />
+        <item itemvalue="Application.Two" />
+        <item itemvalue="Application.Task" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +141,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577778676517</updated>
-      <workItem from="1577778682453" duration="19541000" />
+      <workItem from="1577778682453" duration="20173000" />
+      <workItem from="1577805658740" duration="9916000" />
+      <workItem from="1577982092058" duration="10209000" />
+      <workItem from="1578000032844" duration="20390000" />
     </task>
     <servers />
   </component>
@@ -83,53 +156,65 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="92" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1577778928934" />
-    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1577779822560">
+    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1578002031639">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1577779822560" />
-    <state x="548" y="188" key="FileChooserDialogImpl" timestamp="1577778958903">
+    <state x="574" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1578002031639" />
+    <state x="883" y="183" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1578137475302">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1577778958903" />
-    <state width="1493" height="190" key="GridCell.Tab.0.bottom" timestamp="1577798263843">
+    <state x="883" y="183" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578137475302" />
+    <state x="548" y="188" key="FileChooserDialogImpl" timestamp="1578137289438">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="190" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577798263843" />
-    <state width="1493" height="190" key="GridCell.Tab.0.center" timestamp="1577798263843">
+    <state x="548" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1578137289438" />
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="190" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1577798263843" />
-    <state width="1493" height="190" key="GridCell.Tab.0.left" timestamp="1577798263843">
+    <state width="1493" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.0.center" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="190" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1577798263843" />
-    <state width="1493" height="190" key="GridCell.Tab.0.right" timestamp="1577798263843">
+    <state width="1493" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.0.left" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="190" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1577798263843" />
-    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1577797035803">
+    <state width="1493" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.0.right" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577797035803" />
-    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1577797035803">
+    <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.1.bottom" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1577797035803" />
-    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1577797035803">
+    <state width="1493" height="216" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.1.center" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1577797035803" />
-    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1577797035803">
+    <state width="1493" height="216" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.1.left" timestamp="1578142231780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1577797035803" />
+    <state width="1493" height="216" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
+    <state width="1493" height="216" key="GridCell.Tab.1.right" timestamp="1578142231780">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="216" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1578142231780" />
     <state x="277" y="76" key="SettingsEditor" timestamp="1577778965813">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1577778965813" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1577793211866">
+    <state x="477" y="44" key="refactoring.ChangeSignatureDialog" timestamp="1578140333013">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1577793211866" />
+    <state x="477" y="44" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1578140333013" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1578139278200">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1578139278200" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1577807317722">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1577807317722" />
   </component>
 </project>
