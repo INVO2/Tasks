@@ -1,9 +1,12 @@
 package com.company.Task3;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Three {
     public void checkDoubl(int a,int b,int c){
+        ArrayList findList = new ArrayList();
         int sum=0;
         boolean find=false;
         for (int i = 0; i < 49; i++) {
@@ -11,19 +14,24 @@ public class Three {
                 sum=i*a+j*b;
                 if(sum==c) {
                     if(i==0){
-                        System.out.println((int)Math.pow(b,j));
+                        findList.add(Math.pow(b,j));
                         find=true;
+
                     }else if (j==0){
-                        System.out.println((int)Math.pow(a,i));
+                        findList.add(Math.pow(a,i));
                         find=true;
                     }else {
-                        System.out.println((int)Math.pow(a,i)*(int)Math.pow(b,j));
+                        findList.add(Math.pow(a,i)*Math.pow(b,j));
                         find=true;
+                        break;
                     }
                 }
             }
         }
-        if(!find) System.out.println(0);
+        if(!find) {
+            System.out.println(0);
+        }
+        else System.out.println(Collections.max(findList));
 
     }
     public static void main(String[] args){
