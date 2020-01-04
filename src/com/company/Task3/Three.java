@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Three {
-    public void checkDoubl(int a,int b,int c){
+    public void checkDouble(int a,int b,int c){
         ArrayList findList = new ArrayList();
         int sum=0;
         boolean find=false;
@@ -16,14 +16,12 @@ public class Three {
                     if(i==0){
                         findList.add(Math.pow(b,j));
                         find=true;
-
                     }else if (j==0){
                         findList.add(Math.pow(a,i));
                         find=true;
                     }else {
                         findList.add(Math.pow(a,i)*Math.pow(b,j));
                         find=true;
-                        break;
                     }
                 }
             }
@@ -45,7 +43,7 @@ public class Three {
                 int n = new Scanner(System.in).nextInt();
                 if (a>9|a<2|b>9|b<2|n>99|n<11) {
                     throw new Exception();
-                } else new Three().checkDoubl(a,b,n);
+                } else new Three().checkDouble(a,b,n);
 
             } catch (Exception e) {
                 System.out.println("Ошибка ввода, повторите ввод");
